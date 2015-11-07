@@ -1,0 +1,28 @@
+{
+
+"name": "Twitter Unfollow All",
+"version": "2.0",
+"background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+ "description": "Allows you to unfollow many users on Twitter with a simple click",
+    "browser_action": {
+        
+        "default_title": "Twitter Unfollow All by Koray Gocmen"
+    },
+	
+	"icons": { 
+			"16": "icon16.png",
+			"48": "icon48.png",
+			"128": "icon128.png" },
+	
+	
+    "permissions": [
+        "https://twitter.com/following",
+		"tabs"
+    ],
+    "manifest_version": 2
+}
